@@ -1,4 +1,4 @@
-# Monologue Dataset w/ Face Center
+# Monologue Dataset w/ Face Centered
 
 ## Introduction
 This repository is a monologue dataset inherited from the [speech2gesture dataset](https://github.com/amirbar/speech2gesture/blob/master/data/dataset.md) with further video 
@@ -67,8 +67,9 @@ face-contained interval along with the face top-left corner coordinates and crop
 ## Sample Result
 Here is the sample for a processed video which is centered around the speaker's face with unrelated intervals removed:
 
-<div style="text-align:center"><img src="./sample.gif" /></div>
-
+<p align="center">
+  <img src="./sample.gif">
+</p>
 
 To watch the sample video and compare with the original one, please click the link: https://youtu.be/qINF7DoQCek.
 
