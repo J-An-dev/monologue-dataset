@@ -59,7 +59,7 @@ face-contained interval along with the face top-left corner coordinates and crop
 2. [crop_merge.py](video_processing/crop_merge.py) program reads though all the videos for one speaker. And for each video it calls the program [face_timestamp.py](./video_processing/face_timestamp.py) and uses those returned information for video cropping and merging:
     1. Split the video into several intervals according to the start & end timestamp of each interval, and name them in order and saved them separately under the folder `./videos/<speaker_name>_crop` like `./videos/obama_crop`.
     2. For each interval, crop frames around speaker's face according to the face's coordinates and window size, and overwrite the original interval.
-    3. Merge all those intervals above into one video and save it under the folder `./videos/<speaker_name>done` like `./videos/obama_done`.
+    3. Merge all those intervals above into one video and save it under the folder `./videos/<speaker_name>_done` like `./videos/obama_done`.
 
         *Note: To merge intervals into one video, need to first create a list which documents the file path of each interval in order.*
 
